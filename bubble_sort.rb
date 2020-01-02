@@ -18,7 +18,7 @@ def bubble_sort(array)
 end
 
 def bubble_sort_by(array)
-  return array unless block_given?
+  raise LocalJumpError, 'Missing the comparator block!' unless block_given?
 
   last_index = array.length
 
@@ -36,6 +36,6 @@ def bubble_sort_by(array)
   array
 end
 
-bubble_sort_by(%w[hi hello hey]) do |left, right|
-  left.length - right.length
-end
+# puts bubble_sort([4,3,78,2,0,2]).to_s
+# puts (bubble_sort_by(%w[hi hello hey]) { |left, right| left.length - right.length }).to_s
+# puts bubble_sort_by(%w[hi hello hey]).to_s
