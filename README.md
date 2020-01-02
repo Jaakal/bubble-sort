@@ -1,6 +1,6 @@
 # Bubble Sort
 
-This is a implementation of Bubble Sort algorithm for the number array input and another one with a comparator block.
+This is a implementation of Bubble Sort algorithm for the array and another one for the array with a comparator block.
 
 ## Getting Started
 
