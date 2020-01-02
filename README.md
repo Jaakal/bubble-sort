@@ -8,7 +8,7 @@ One can either download the bubble_sort.rb and include it to its project or just
 
 **Example for the array of numbers:**
 ```
-bubble_sort([4, 3, 78, 2, 0, 2]).to_s
+bubble_sort([4, 3, 78, 2, 0, 2])
 ```
 **Example for the array with the comparator block:**
 ```
